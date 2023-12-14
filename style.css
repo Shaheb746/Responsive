@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    padding: 0vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+.nav-part2 ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-part2 ul li{
+    margin-right: 2vw;
+}
+.nav-part2 ul a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    /* background-color: blue; */
+    border-radius: 4px;
+    
+}
+.nav-part2 ul a:hover{
+    background-color: #3939b8;
+    color: white;
+
+}
+.nav-part2 ul i{
+    font-size: 2vw;
+    color: white;
+    display: none;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.content{
+    height: calc(100% - 70px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 6vw 4vw;
+}
+.left h1{
+    font-size: 4.6vw;
+    font-weight: 600;
+    line-height: 5vw;
+    margin-bottom: 20px;
+}
+.left span{
+    color: #F66801;
+}
+.left p{
+    margin-bottom: 24px;
+    font-size: 1.6vw;
+    padding: 45px 5px;
+}
+.left button{
+    padding: 10px 20px;
+    background-color: #F66801;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 4vw;
+    border: none;
+}
+.left button:hover{
+    background-color: #b84e02;
+}
+.right{
+    height: 100%;
+    width: 50%;
+
+} 
+.right img{
+    width: 100%;
+    margin-top: 5vw;
+}
+@media (max-with:600px) {
+    .nav{
+        background-color: yellowgreen;
+        padding: 0 5vw;
+        height: 6px;
+    }
+    
+    
+};
